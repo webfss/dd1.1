@@ -1,38 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@webfss 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-webfss
-/
-dd
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-dd/cent7.sh
-@webfss
-webfss Create cent7.sh
-Latest commit 64e3d55 1 hour ago
- History
- 1 contributor
-129 lines (126 sloc)  4.2 KB
-  
 #!/bin/bash
 #Net Reinstall Centos System
 red='\033[0;31m'
