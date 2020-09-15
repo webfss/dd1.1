@@ -127,7 +127,7 @@ read -p "请输入 VNC 密码[6 位+][默认密码 tg_jockerli]:" input_passwd
 [ -z "${input_passwd}" ] && input_passwd="tg_jockerli"
 vnc_password=${input_passwd}
 read -p "请输入 repo 地址[建议使用默认直接回车]:" input_repo
-[ -z "${input_repo}" ] && input_repo="http://mirrors.aliyun.com/centos/7.8.2003/os/x86_64/"
+[ -z "${input_repo}" ] && input_repo="https://ftp.sjtu.edu.cn/centos/7.8.2003/os/x86_64/"
 repo_url=${input_repo}
 gateway=$(route -n | grep ${nicCardName} | grep UG | awk '{print $2}')
 ipaddr=$(ifconfig eth0 | grep "inet" | awk -F " " '{print $2}' | head -n 1)
